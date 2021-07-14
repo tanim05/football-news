@@ -211,6 +211,47 @@ a{
 .watch-btn:hover{
     transform: scale(1.1);
 }
+.section{
+    padding:20px 20px 20px 20px;
+    margin-top: 40px;
+    width: 1010px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.section-title{
+    color: #000000;
+    padding-top: 3%;
+    padding-bottom: 3%;    
+}
+.section-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 26px;  
+}
+.item{
+    display: flex;
+    align-items: center;   
+    column-gap: 16px; 
+}
+
+.item .thumbnail img{
+    width: 177px;
+    height: 117px;
+    border-radius: 5%;
+}
+.item-name{
+    font-size: 24px;
+    color: #18191F;
+}
+.ranking{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.ranking span{
+    font-weight: 700;
+    color: tomato;
+}
 /* Blogs Section */
 article{
     padding: 60px 0 100px 0;
